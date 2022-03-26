@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto&display=swap');
+.navbar{
+    height: 6rem;
+}
+.nav-link {
+  color: black;
+}
+.nav-link :hover {
+    color: red;
+}
+
+.MenuItem{
+  font-size: 1.3rem;
+  margin-left: 3rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* hero session */
+.Hcontainer{
+    height: 40rem;
+    margin-top: 5rem;
+}
+.br {
+    display: block;
+    margin-bottom: -5rem;
+}
+
+#Path_10 {
+    opacity: 0.67;
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 1rem;
+}
+
+.Path_10 {
+    height: 17.31vh;
+    margin-top: 8.65vh;
+}
+
+.Slogan {
+    vertical-align: middle;
+    margin-top: 17.33vh;
+    margin-right: 5rem;
+    margin-right: 50;
+    padding: 0;
+}
+
+.bigslogan {
+    opacity: 0.68;
+    font-family: Colgent;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+
+.smallslogan {
+    opacity: 0.68;
+    font-family: Colgent;
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 1);
+    margin-left: -6.5rem;
+}
+
+/* Product */
+.PContainer{
+    display: flex;
+  justify-content: space-between;
+}
+
+/* footer */
+.footer{
+    background-color: white;
+    padding-bottom: 1rem;
+}
+.logoname {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: 0.6rem;
+    text-align: center;
+    font-family: Mark-SmallCaps-Regular;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

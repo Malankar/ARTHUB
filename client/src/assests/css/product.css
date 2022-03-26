@@ -1,0 +1,43 @@
+
+.Pcontainer{
+  height: 800px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.Image{
+  height: 80%;
+  z-index: 2;
+}
+
+.product{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10rem;
+}
+
+@media screen and (max-width: 1740px) {
+  .product{
+    grid-template-columns: repeat(2,1fr);
+    gap: 5rem;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .product{
+    grid-template-columns: repeat(1,1fr);
+    gap: 0rem;
+  }
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  position: relative;
+}

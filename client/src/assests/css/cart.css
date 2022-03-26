@@ -1,0 +1,113 @@
+body{
+  background-color: black;
+}
+.containerCart{
+  padding: 20px;
+}
+
+.titleCart{
+  font-weight: 600;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+.upperPart{
+display: flex;
+justify-content: space-between;
+}
+.topButton{
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+}
+.cCBtn{
+  padding: 10px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color:#f73333;
+  border: none;
+  border-radius: 10px;
+}
+
+.bottomPart{
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20rem;
+}
+
+
+.details{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.priceDetailContainer{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.removeBtn{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-weight: 800;
+  font-size: 0.8rem;
+  border-radius: 2rem;
+  border: none;
+}
+.priceContainer{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+}
+
+.summaryCont{
+  flex: 1;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  height: fit-content;
+}
+
+.summaryItem{
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.checkoutButton{
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+.loginBtnC{
+  padding: 10px 50px;
+  font-weight: 600;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1740px) {
+  .bottomPart{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+  }
+}

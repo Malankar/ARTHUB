@@ -1,0 +1,107 @@
+.Container {
+  background-color: black;
+}
+
+.Wrapper {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+}
+
+.ImgContainer {
+  flex: 1;
+}
+
+.Image {
+  width: 80%;
+  object-fit: contain;
+}
+
+.InfoContainer{
+  flex: 1;
+  height: fit-content;
+  padding: 40px 50px;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.TitleImg{
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+}
+
+.Desc{
+  margin: 20px 0px;
+  font-size: 1rem;
+  max-width: 24rem;
+  color: black;
+  font-weight: 200;
+}
+
+.Price {
+  font-weight: 500;
+  font-size: 2rem;
+  color: black;
+}
+
+
+.AddContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: black;
+  justify-content: space-between;
+}
+
+.AmountContainer {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.Amount {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+}
+
+.Buttoncart {
+  padding: 8px 15px;
+  border: 2px solid rgb(81, 0, 128);
+  background-color: rgb(81, 0, 128);
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1350px) {
+  .Image {
+    width: 100%;
+  }
+  .Wrapper{
+    grid-template-columns: repeat(1,1fr);
+    gap: 5rem;
+  }
+  .Title{
+    font-size: 2.5rem;
+  } 
+  .Desc{
+    font-size: 1rem;
+  } 
+  .Price{
+    font-size: 1.5rem;
+  }
+  .Buttoncart {
+   width: 8rem;
+   font-size: small;
+   white-space: nowrap;
+
+  }
+}

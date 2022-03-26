@@ -1,0 +1,32 @@
+.loginBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #080808;
+}
+.loginCont{
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem 4rem;
+  max-width: 500px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.inputbox{
+  flex: 1;
+  min-width: 40%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.loginBtn{
+  border: none;
+  padding: 15px 20px;
+  font-size: 1rem;
+  background-color: #0365f8;
+  color: white;
+  margin-bottom: 10px;
+}
